@@ -10,6 +10,7 @@ endif()
 # avoid conflicts when compiling with PCH
 set(CMAKE_CXX_EXTENSIONS OFF)
 
+include(cmake/ConfigureVcpkg.cmake)
 
 
 
